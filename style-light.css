@@ -1,0 +1,26 @@
+
+
+.body {
+    text-align: center;
+    position:fixed;
+    height:100%;
+    width:100%;
+    left:0%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.titlebar {
+    text-decoration:none;
+    text-align: left;
+    color: black;
+}
+button {
+    border: none;
+    padding: 3px 5px;
+}
