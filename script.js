@@ -23,3 +23,6 @@ function switchTheme(){
         document.getElementById("sheet").setAttribute("href", "style-dark.css");
     }
 }
+function tolink(link){
+    window.location.href=link;
+}
