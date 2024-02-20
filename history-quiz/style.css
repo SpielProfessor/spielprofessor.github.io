@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  text-align: center;
+}
+button {
+  background-color: #434C5E;
+  color: #D8DEE9;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #3B4252;
+}
+button:active {
+  background-color: #4C566A;
+}
+body {
+  background-color: #2E3440;
+  color:#ECEFF4;
+}

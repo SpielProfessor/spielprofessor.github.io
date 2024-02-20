@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Das Quiz</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="draw()">
+  <h2 id="score"></h2>
+  <hr>
+  <div>
+    <h1 id="cFrage"> </h1>
+    <button id="b1" onclick="validate(1)"></button> <br> <br>
+    <button id="b2" onclick="validate(2)"></button> <br> <br>
+    <button id="b3" onclick="validate(3)"></button> <br> <br>
+    <button id="b4" onclick="validate(4)"></button> <br> <br>
+  </div>
+  <hr>
+  <p style="text-align: center;" , id="state"></p>
+  <script src="script.js"></script>
+</body>
+<footer>
+    <hr>
+    <p class="lower" style="text-align:center;">Made by Aaron (Information & questions by Martin), made at "Hacker School" at Google Munich</p>
+</footer>
+
+</html>
