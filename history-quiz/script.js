@@ -1,5 +1,5 @@
 // Fragen: 10 / +10 / -5 
-var fragen = ["Wie alt ist die älteste Höhlenmalerei?", "Wie lange hat das alte Ägypten als großmacht Überlebt?", "Welches dieser Bauwerke gehörte nicht zu den Weltwundern der Antike?", "Wie viele Hauptgötter gab es im antiken Griechenland?", "Wie viele Länder waren unter Römischer Herrschaft zur Zeit seiner größten Ausdehnung?", "Wann fing der erste Kreuzzug an?", "Wann wurde der Amerikanische Kontinent entdeckt?", "Wie viele Soldaten kamen im amerikanischen Buergerkrieg ums Leben?", "Welches Land wurde im 2. Weltkrieg mit atombomben bebombt?", "Welches land hat die Atombombe abgeworfen?", "Vielen Dank fürs spielen!"];
+var fragen = ["Wie alt ist die älteste Höhlenmalerei?", "Wie lange hat das alte Ägypten als Großmacht überlebt?", "Welches dieser Bauwerke gehörte nicht zu den Weltwundern der Antike?", "Wie viele Hauptgötter gab es im antiken Griechenland?", "Wie viele Länder waren unter Römischer Herrschaft zur Zeit seiner größten Ausdehnung?", "Wann fing der erste Kreuzzug an?", "Wann wurde der amerikanische Kontinent entdeckt?", "Wie viele Soldaten kamen im amerikanischen Bürgerkrieg ums Leben?", "Welches Land wurde im 2. Weltkrieg mit Atombomben bebombt?", "Welches Land hat die Atombombe abgeworfen?", "Vielen Dank fürs Spielen!"];
 var lastQuestion = 11;
 var answerIndex = [
   ["45500", "43900", "65000", "32000"],
@@ -10,8 +10,8 @@ var answerIndex = [
   ["1095", "1105", "1080", "1090"],
   ["1490", "1496", "1492", "1500"],
   ["540000", "740000", "620000", "810000"],
-  ["Japan", "Russland", "Deutschland", "Frankreich"],
-  ["Deutschland", "Russland", "USA", "Großbritanien"],
+  ["Japan", "Sowjetunion", "Deutschland", "Frankreich"],
+  ["Deutschland", "Sowjetunion", "USA", "Großbritannien"],
   ["1","1","1", "1"]
 ];
 var trues=[1,2,3,1,4,1,3,3,1,3];
@@ -52,7 +52,7 @@ function validate(id){
 function stop() {
   if (points <=-50){
     var note = "7?";
-    document.getElementById("state").innerHTML="Es gibt note 7???";
+    document.getElementById("state").innerHTML="Es gibt Note 7???";
   } else if (points <= 10) {
     var note = 6;
   } else if (points < 25) {
@@ -66,7 +66,7 @@ function stop() {
   } else {
     var note = 1;
   }
-  document.getElementById("cFrage").innerHTML = "Vielen Dank für's spielen";
+  document.getElementById("cFrage").innerHTML = "Vielen Dank für's Spielen!";
     document.getElementById("score").innerHTML = "Geschichte - Das Quiz | Punkte: " + points + " | Note: " + note;
   document.getElementById("b1").innerHTML="Play again";
   document.getElementById("b2").innerHTML="Play again";
