@@ -1,37 +1,9 @@
-body {
+* {
     background-color: #1e2326;
 }
 
-a {
-    color:#7fbbb3;
-}
-.body {
-    background-color:#1e2326;
-    color:#d3c6aa;
-    text-align: center;
-    height:100%;
-    width:100%;
-    left:0%;
-}
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #1e2326;
-    color:#d3c6aa
-}
+a {text-decoration:none; color:#d3c6aa; font-weight: bold; font-style:italic}
 
-.titlebar {
-    text-decoration:none;
-    text-align: left;
-    color: #83c092;
-    background-color: #1e2326;
-}
-.toppy {
-    background-color: #1e2326;
-    color: #d3c6aa
-}
 button {
     background-color: #272e33;
     color: #D8DEE9;
